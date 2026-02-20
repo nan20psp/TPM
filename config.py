@@ -42,7 +42,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rm-105/infinity",
+    "https://github.com/nan20psp/TPM",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
 SUPPORT_CHANNEL_LINK = getenv("SUPPORT_CHANNEL_LINK", "@JBmusic_myanmar")
 SUPPORT_CHAT_LINK = getenv("SUPPORT_CHAT_LINK", "@JBmusic_myanmar2002")
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/cupid153")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/infinitylovegp")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ThaePhyuMusic1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ThaePhyuMusic2")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -100,19 +100,19 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/a5b0jd.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/i7cin6.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/a5b0jd.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/i7cin6.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/a5b0jd.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/a5b0jd.jpg"
-JOIN_IMG_URL = "https://files.catbox.moe/a5b0jd.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/a5b0jd.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/0gdu2w.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/a5b0jd.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/i7cin6.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/i7cin6.jpg"
+JOIN_IMG_URL = "https://files.catbox.moe/i7cin6.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/i7cin6.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/i7cin6.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/i7cin6.jpg"
 SOUNCLOUD_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/a5b0jd.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/i7cin6.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/tyeotp.jpg"
